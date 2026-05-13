@@ -510,7 +510,7 @@ namespace Content.Server.Atmos.EntitySystems
                 {
                     if (fireproof && fireproofComponent != null && TryComp<TemperatureComponent>(uid, out var temp))
                     {
-                        var safetemp = fireproofComponent.MaxTempurature;
+                        var safetemp = fireproofComponent.MaxTemperature;
                         if (temp.CurrentTemperature > safetemp)
                             _temperatureSystem.ForceChangeTemperature(uid, safetemp, temp);
                     }
