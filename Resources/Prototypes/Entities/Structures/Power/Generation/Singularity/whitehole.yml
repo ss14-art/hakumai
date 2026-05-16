@@ -1,40 +1,17 @@
 - type: entity
-  id: Singularity
-  name: gravitational singularity
-  description: A mesmerizing swirl of darkness that sucks in everything. If it's moving towards you, run.
+  id: WhiteHole
+  name: white hole
+  description: A mysterious vortex of creation that ejects matter in defiance of gravity.
   components:
   - type: Clickable
-  - type: AmbientSound
-    volume: -4
-    range: 14
-    sound:
-      path: /Audio/Effects/singularity.ogg
+  - type: Transform
+    anchored: true
   - type: Physics
-    bodyType: Dynamic
+    bodyType: Static
     bodyStatus: InAir
-  - type: CanMoveInAir
-  - type: EventHorizon # To make the singularity consume things.
-    radius: 0.5
-    canBreachContainment: false
-    colliderFixtureId: EventHorizonCollider
-    consumerFixtureId: EventHorizonConsumer
-  - type: GravityWell # To make the singularity attract things.
-    baseRadialAcceleration: 10
-    maxRange: 4
   - type: Fixtures
     fixtures:
-      EventHorizonCollider:
-        shape:
-          !type:PhysShapeCircle
-            radius: 0.35
-        hard: true
-        restitution: 0.8
-        density: 99999
-        mask:
-        - SingularityLayer
-        layer:
-        - SingularityLayer
-      EventHorizonConsumer:
+      WhiteHoleCollider:
         shape:
           !type:PhysShapeCircle
             radius: 0.35
@@ -43,56 +20,38 @@
         - SingularityLayer
         layer:
         - SingularityLayer
-  - type: Singularity
-    energy: 180
-    level: 1
-    radsPerLevel: 4
-    energyLoss: 1
-  - type: RandomWalk # To make the singularity move around.
-    maxSpeed: 2.5
-    minSpeed: 1.875
-  - type: SingularityDistortion
-    falloffPower: 2.529822
-    intensity: 3645
+  - type: WhiteHole
+    ejectSpeed: 10
+    followSingularity: true
+  - type: GravityWell
+    baseRadialAcceleration: -10
+    maxRange: 4
   - type: RadiationSource
-    slope: 0.2 # its emit really far away
-    intensity: 6
+    slope: 0.85
+    intensity: 1
     updateInterval: 1.0
     staggerUpdates: true
+  - type: SingularityDistortion
+    invertDistortion: true
+    falloffPower: 2.529822
+    intensity: 1800
   - type: NavScreenTrackable
     trackerType: SpawnTracked
-    color: "#FF4A4A"
+    color: "#00B5B5"
     markerSize: 4
     singularityLevelSizeGrowth: 3.0
     showLabel: true
-  - type: PointLight
-    enabled: true
-    radius: 10
   - type: Appearance
-  - type: GuideHelp # Always strive to be helpful in trying times.
-    guides:
-    - SingularityEngine
-    - SingularityTeslaEngine
-    - Power
-  - type: Tag
-    tags:
-    - GhostOnlyWarp
-  - type: WarpPoint
-    follow: true
-    location: singularity
-    blacklist:
-      tags:
-      - GhostOnlyWarp
   - type: Sprite
     sprite: Structures/Power/Generation/Singularity/singularity_1.rsi
     layers:
     - map: [ "VisualLevel" ]
       state: singularity_1
-      shader: unshaded
+      shader: WhiteHoleNegative
   - type: GenericVisualizer
     visuals:
       enum.SingularityAppearanceKeys.Singularity:
-       VisualLevel:
+        VisualLevel:
           1:
             sprite: Structures/Power/Generation/Singularity/singularity_1.rsi
             state: singularity_1
@@ -117,3 +76,7 @@
             sprite: Structures/Power/Generation/Singularity/singularity_6.rsi
             state: singularity_6
             scale: .9,.9
+  - type: PointLight
+    enabled: true
+    radius: 10
+    color: "#00B5B5"
