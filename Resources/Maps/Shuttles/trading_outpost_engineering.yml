@@ -7710,16 +7710,6 @@ entities:
       parent: 2
 - proto: ClothingBeltUtilityEngineering
   entities:
-  - uid: 434
-    components:
-    - type: Transform
-      pos: 6.2896113,-14.183771
-      parent: 2
-    - type: UserInterface
-      actors:
-        enum.StorageUiKey.Key:
-        - invalid
-    - type: ActiveUserInterface
   - uid: 435
     components:
     - type: Transform

@@ -32,7 +32,6 @@ entities:
       name: Science Trade Station
     - type: Transform
       pos: -2.9375,-1.625
-      parent: 1
     - type: MapGrid
       chunks:
         0,0:
@@ -1876,23 +1875,25 @@ entities:
     - type: Transform
       pos: 12.541403,3.5539834
       parent: 2
-    - type: Storage
-      storedItems:
-        1444:
-          position: 0,0
-          _rotation: South
-    - type: ContainerContainer
-      containers:
-        storagebase: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 1444
   - uid: 1445
     components:
     - type: Transform
       pos: 12.541403,3.5539834
       parent: 2
+- proto: NetworkConfigurator
+  entities:
+  - uid: 1444
+    components:
+    - type: Transform
+      pos: 12.541403,3.5539834
+      parent: 2
+    - type: NetworkConfigurator
+      devices:
+        SCR-2820-523E: 161
+        VNT-58BA-3674: 1037
+      linkModeActive: False
+    - type: Physics
+      canCollide: False
 - proto: BoxSyringe
   entities:
   - uid: 1446
@@ -13961,19 +13962,6 @@ entities:
         Blunt: 0
         Slash: 0
         Piercing: 0
-- proto: NetworkConfigurator
-  entities:
-  - uid: 1444
-    components:
-    - type: Transform
-      parent: 1443
-    - type: NetworkConfigurator
-      devices:
-        SCR-2820-523E: 161
-        VNT-58BA-3674: 1037
-      linkModeActive: False
-    - type: Physics
-      canCollide: False
 - proto: PaperBin10
   entities:
   - uid: 823
