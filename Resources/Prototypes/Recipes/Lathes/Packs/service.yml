@@ -52,7 +52,6 @@
   - SpaceVillainArcadeComputerCircuitboard
   - InvoicePrinterCircuitboard
   - IDComputerCircuitboard
-  - ButcheringMachineCircuitboard
   - MixingMachineCircuitboard
 
 - type: latheRecipePack
@@ -95,3 +94,4 @@
   - JukeboxCircuitBoard
   - DawInstrumentMachineCircuitboard
   - ComputerTelevisionCircuitboard
+  - ButcheringMachineCircuitboard
