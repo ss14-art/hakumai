@@ -1,0 +1,11 @@
+ent-HandHeldMassScanner = ручной сканер массы
+    .desc = Портативный сканер массы.
+ent-HandHeldMassScannerDEBUG5K = { ent-HandHeldMassScanner }
+    .desc = { ent-HandHeldMassScanner.desc }
+    .suffix = ДЕБАГ 5км
+ent-HandHeldMassScannerEmpty = { ent-HandHeldMassScanner }
+    .desc = { ent-HandHeldMassScanner.desc }
+    .suffix = Пустой
+ent-HandHeldMassScannerBorg = { ent-HandHeldMassScanner }
+    .desc = { ent-HandHeldMassScanner.desc }
+    .suffix = Борг

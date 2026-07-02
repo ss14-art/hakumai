@@ -1,0 +1,16 @@
+ent-BaseScrapDebris = Обломок мусора
+    .desc = { ent-BaseDebris.desc }
+ent-ScrapDebrisSmall = Обломок мусора маленький
+    .desc = { ent-BaseScrapDebris.desc }
+ent-ScrapDebrisMedium = Обломок мусора средний
+    .desc = { ent-BaseScrapDebris.desc }
+ent-ScrapDebrisLarge = Обломок мусора большой
+    .desc = { ent-BaseScrapDebris.desc }
+ent-BaseBrassWreck = латунные обломки конструкции
+    .desc = { ent-BaseDebris.desc }
+ent-BrassWreckSmall = маленькие латунные обломки конструкции
+    .desc = { ent-BaseBrassWreck.desc }
+ent-BrassWreckMedium = средние латунные обломки конструкции
+    .desc = { ent-BaseBrassWreck.desc }
+ent-BrassWreckLarge = большие латунные обломки конструкции
+    .desc = { ent-BaseBrassWreck.desc }

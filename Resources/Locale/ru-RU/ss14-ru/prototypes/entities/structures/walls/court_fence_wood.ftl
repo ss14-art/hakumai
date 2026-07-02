@@ -1,0 +1,16 @@
+ent-BaseCourtFenceWood = деревянное ограждение суда
+    .desc = Барьер судебного зала.
+ent-CourtFenceWoodStraight = { ent-BaseCourtFenceWood }
+    .desc = { ent-BaseCourtFenceWood.desc }
+    .suffix = Прямой
+ent-CourtFenceWoodEnd = { ent-BaseCourtFenceWood }
+    .desc = { ent-BaseCourtFenceWood.desc }
+    .suffix = Конец
+ent-CourtFenceWoodCorner = { ent-BaseCourtFenceWood }
+    .desc = { ent-BaseCourtFenceWood.desc }
+    .suffix = Угол
+ent-CourtFenceWoodTJunction = { ent-BaseCourtFenceWood }
+    .desc = { ent-BaseCourtFenceWood.desc }
+    .suffix = Т-образный стык
+ent-CourtFenceWoodGate = ворота деревянного ограждения
+    .desc = Глядя на эти ворота, в голове всплывает знакомый образ. Где моя свинка?

@@ -1,0 +1,14 @@
+gases-oxygen = Кислород
+gases-nitrogen = Азот
+gases-co2 = Углекислый газ
+gases-plasma = Плазма
+gases-tritium = Тритий
+gases-water-vapor = Водяной пар
+gases-ammonia = Аммиак
+gases-n2o = Оксид азота
+gases-frezon = Фрезон
+gases-hydrogen = Водород
+gases-chlorine = Хлор
+gases-fluorine = Фтор
+gases-methane = Метан
+gases-chlorine-trifluoride = Трифторид хлора

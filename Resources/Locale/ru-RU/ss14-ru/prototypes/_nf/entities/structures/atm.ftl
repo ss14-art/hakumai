@@ -1,0 +1,13 @@
+ent-ComputerBankATMBase = { ent-BaseComputer }
+    .desc = { ent-BaseComputer.desc }
+ent-ComputerBankATMDeposit = банковский банкомат
+    .desc = Используется для внесения и снятия средств со личного банковского счёта.
+ent-ComputerBankATMWithdraw = банкомат только для снятия средств
+    .desc = Используется для снятия средств со личного банковского счёта, функция внесения недоступна.
+ent-ComputerBankATM = { ent-ComputerBankATMDeposit }
+    .desc = { ent-ComputerBankATMDeposit.desc }
+ent-ComputerWithdrawBankATM = { ent-ComputerBankATMWithdraw }
+    .desc = { ent-ComputerBankATMWithdraw.desc }
+ent-ComputerBlackMarketBankATM = { ent-ComputerBankATMDeposit }
+    .desc = Имеет несколько подозрительных модификаций и наклейку с надписью КОМИССИЯ ЗА ВНЕСЕНИЕ 30%
+    .suffix = ЧерныйРынок

@@ -1,0 +1,11 @@
+charcoal_10u = активированный уголь 10ед.
+tricordrazine_10u = трикордразин 10ед.
+iron_10u = железо 10ед.
+copper_10u = медь 10ед.
+potassium_iodide_10u = йодид калия 10ед.
+hyronalin_10u = хироналин 10ед.
+kelotane_10u = келотан 10ед.
+dermaline_10u = дермалин 10ед.
+dylovene_10u = диловен 10ед.
+bicaridine_10u = бикаридин 10ед.
+dexalin_10u = дексалин 10ед.

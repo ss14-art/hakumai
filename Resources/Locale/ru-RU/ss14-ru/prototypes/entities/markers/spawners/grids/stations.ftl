@@ -1,0 +1,15 @@
+ent-TradeStationSpawnerMarker = спавнер сетки
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Торговая станция
+ent-TradeStationScienceSpawnerMarker = спавнер сетки
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Научная торговая станция
+ent-TradeStationHunterSpawnerMarker = спавнер сетки
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Охотничья торговая станция
+ent-TradeStationEngineeringSpawnerMarker = спавнер сетки
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Инженерная торговая станция
+ent-TradeStationExplorationSpawnerMarker = спавнер сетки
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Исследовательская торговая станция

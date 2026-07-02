@@ -1,0 +1,17 @@
+guide-entry-factions = Фракции
+guide-entry-faction-creation = Создание фракции
+guide-entry-faction-modification = Изменение фракции
+guide-entry-threshold = Порог
+guide-entry-making-money = Заработок денег
+guide-entry-threshold-cargo = Снабжение Порога
+guide-entry-threshold-mining-hunting = Шахтёрство и охота на «Пороге»
+guide-entry-threshold-science = Наука Порога
+guide-entry-death = Смерть
+guide-entry-achievements = Достижения
+guide-entry-grid-control = Управление сетками (grids)
+guide-entry-access-control = Контроль доступа
+guide-entry-precursor = Предтечи
+guide-entry-dealer = Торговец
+guide-entry-bounty-hunter = Охотник за головами и ассасин
+guide-entry-purchases = Покупки Предтеч
+guide-entry-sector-chaos = Хаос в секторе

@@ -1,0 +1,24 @@
+admin-player-actions-window-ban = Панель банов
+admin-player-actions-window-admin-ghost = Админ призрак
+admin-player-actions-window-permissions = Панель доступов
+admin-player-actions-window-announce = Сделать объявление
+admin-player-actions-window-shuttle = Вызвать/отозвать шаттл
+admin-player-actions-window-sector-tools = Инструменты сектора
+admin-player-actions-window-admin-logs = Админ логи
+admin-player-actions-window-admin-fax = Админ факс
+admin-player-actions-window-admin-chat = Админ чат
+
+admin-sector-title = Инструменты сектора
+admin-sector-weather-header = Событие в секторе
+admin-sector-sector-label = Сектор:
+admin-sector-weather-id-label = ID события:
+admin-sector-set-weather = Запустить событие
+admin-sector-clear-weather = Сбросить событие
+admin-sector-name-label = Название сектора:
+admin-sector-set-name = Изменить название
+admin-sector-clear-name = Сбросить название
+admin-sector-radius-header = Радиусы сектора (CVars)
+admin-sector-center-radius-label = Центральный радиус:
+admin-sector-set-center-radius = Задать центральный радиус
+admin-sector-max-radius-label = Макс. радиус:
+admin-sector-set-max-radius = Задать макс. радиус

@@ -1,0 +1,12 @@
+ent-FreezerElectronics = микросхема холодильника
+    .desc = Электронная плата, используемая в кухонных холодильниках.
+    .suffix = { ent-BaseElectronics.suffix }
+ent-MorgueElectronics = микросхема морга
+    .desc = Электронная плата, используемая для создания холодильной камеры морга.
+    .suffix = { ent-BaseElectronics.suffix }
+ent-CrematoriumElectronics = микросхема крематория
+    .desc = Электронная плата, используемая для создания крематора.
+    .suffix = { ent-BaseElectronics.suffix }
+ent-BarSignElectronics = микросхема барной вывески
+    .desc = Электронная плата, используемая для создания барной вывески.
+    .suffix = { ent-BaseElectronics.suffix }

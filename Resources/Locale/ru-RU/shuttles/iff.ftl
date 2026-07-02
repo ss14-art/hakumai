@@ -1,0 +1,16 @@
+iff-console-window-title = Консоль системы опознавания
+iff-console-show-iff-label = Показ системы опознавания
+iff-console-show-vessel-label = Показ корабля
+iff-console-designation-label = Тип объекта
+iff-console-designation-ship = Корабль
+iff-console-designation-station = Станция
+iff-console-signature-color-label = Цвет метки
+iff-console-signature-color-placeholder = RRGGBB
+iff-console-signature-color-apply = Применить
+iff-console-status-iff-label = Статус метки опознавания
+iff-console-status-vessel-label = Статус видимости корабля
+iff-console-status-signature-color-label = Текущий цвет метки
+iff-console-status-value-visible = Виден
+iff-console-status-value-hidden = Скрыт
+iff-console-on = Вкл
+iff-console-off = Выкл

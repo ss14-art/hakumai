@@ -1,0 +1,12 @@
+ent-LockerQuarterMasterSOL = шкаф квартирмейстера Солнечного Легиона
+    .desc = { ent-LockerBaseSecure.desc }
+ent-LockerExecutiveSOL = шкафк представителя Солнечного Легиона
+    .desc = { ent-LockerBaseSecure.desc }
+ent-LockerChiefEngineerSOL = шкаф старшего инженера Солнечного Легиона
+    .desc = { ent-LockerBaseSecure.desc }
+ent-LockerChiefMedicalOfficerSOL = шкаф главврача Солнечного Легиона
+    .desc = { ent-LockerBaseSecure.desc }
+ent-LockerHeadOfSecuritySOL = шкаф шефа полиции Солнечного Легиона
+    .desc = { ent-LockerBaseSecure.desc }
+ent-LockerResearchDirectorSOL = шкаф директора исследований Солнечного Легиона
+    .desc = { ent-LockerBaseSecure.desc }

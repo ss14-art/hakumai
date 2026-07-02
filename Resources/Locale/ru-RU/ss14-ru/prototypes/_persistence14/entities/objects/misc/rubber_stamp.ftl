@@ -1,0 +1,12 @@
+ent-RubberStampExecSOL = печать представителя Солнечного Легиона
+    .desc = { ent-RubberStampBase.desc }
+ent-RubberStampCESOL = печать старшего инженера Солнечного Легиона
+    .desc = { ent-RubberStampBase.desc }
+ent-RubberStampCMOSOL = печать главврача Солнечного Легиона
+    .desc = { ent-RubberStampBase.desc }
+ent-RubberStampHosSOL = печать шефа полиции Солнечного Легиона
+    .desc = { ent-RubberStampBase.desc }
+ent-RubberStampQmSOL = печать квартирмейстера Солнечного Легиона
+    .desc = { ent-RubberStampBase.desc }
+ent-RubberStampRdSOL = печать директора исследований Солнечного Легиона
+    .desc = { ent-RubberStampBase.desc }

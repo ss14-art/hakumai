@@ -1,0 +1,14 @@
+drunk = опьянение
+hallucinations = галлюцинации
+owoaccent = ово-акцент
+drowsiness = сонливость
+hemorrhage = кровотечение
+scrambled = перемешивание речи
+woozy = головокружение
+thin-blood = жидкая кровь
+stunned = оглушение
+barkaccent = лай-акцент
+forced-sleep = принудительный сон
+pain-numbness = онемение боли
+max-stamina-onehalftimes = 1.5x макс. выносливости
+max-stamina-twotimes = 2x макс. выносливости
